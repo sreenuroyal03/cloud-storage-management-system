@@ -1,0 +1,86 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eef3f9;
+  color: #243047;
+}
+
+header {
+  background: #1455a0;
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+}
+
+main {
+  width: 90%;
+  max-width: 850px;
+  margin: 30px auto;
+}
+
+.card {
+  background: white;
+  padding: 22px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px #00000012;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccd5e0;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #1769c2;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #104b8d;
+}
+
+.file {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 12px;
+  margin-top: 10px;
+  background: #f3f6fb;
+  border-radius: 7px;
+  overflow-wrap: anywhere;
+}
+
+.delete {
+  background: #d93636;
+  flex-shrink: 0;
+}
+
+#message {
+  color: #1769c2;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #64748b;
+}
+
+@media (max-width: 500px) {
+  .file {
+    align-items: flex-start;
+  }
+}
